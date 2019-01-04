@@ -1,0 +1,3 @@
+#!/bin/sh
+# gunicorn loads config from gunicorn.conf.py module
+gunicorn app.wsgi
